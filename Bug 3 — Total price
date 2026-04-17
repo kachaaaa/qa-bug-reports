@@ -1,0 +1,26 @@
+Total price does not include tax on Checkout Overview page
+
+Steps to reproduce:
+	1.	Login as standard_user
+	2.	Add a product to the cart
+	3.	Open the cart page
+	4.	Click Checkout
+	5.	Enter valid data (First Name, Last Name, Zip)
+	6.	Click Continue
+	7.	Observe the total price on the Checkout Overview page
+
+Actual result:
+
+Total price is displayed without including tax
+
+Expected result:
+
+Total price should include product price and tax
+
+Severity:
+
+High
+
+Priority:
+
+High
