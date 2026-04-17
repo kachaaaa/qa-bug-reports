@@ -1,29 +1,21 @@
-
-
 QA Bug Reports Portfolio
 
-This repository contains sample bug reports created during QA practice.
+This repository contains sample bug reports created during manual testing practice using Jira-style structure.
 
-🔧 Tools:
-	•	Jira (simulation)
-	•	Manual Testing
+🧪 Tested Application
+	•	SauceDemo (test e-commerce web application)
 
-  Bug Reports
+🛠 Skills Demonstrated
+	•	Bug reporting
+	•	Test case thinking
+	•	Severity & Priority analysis
+	•	UI and functional testing
 
-1. Cart badge displays incorrect item count
-
-Cart badge shows incorrect number of items after removing a product from cart.
-
-2. Cart items are removed after clicking Back
-
-Cart becomes empty after navigating back from Checkout Overview page.
-
-3. Total price does not include tax
-
-Total price on Checkout Overview page does not include tax.
-
-⸻
+🐞 Bug Reports
+	1.	Cart badge displays incorrect item count after removing product
+	2.	Cart items are removed after navigating back from checkout
+	3.	Total price does not include tax on checkout overview page
 
 📌 Notes
 
-These bug reports were created as part of QA training and simulate real-world scenarios
+These bug reports simulate real-world QA tasks and were created as part of my training.
