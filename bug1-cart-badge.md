@@ -1,3 +1,4 @@
+🐞 Bug 1 - Cart Badge displays incorrect item count
 
 Cart badge displays incorrect item count after removing a product from cart
 
