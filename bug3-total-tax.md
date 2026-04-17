@@ -1,3 +1,5 @@
+Bug 3 — Total price
+
 Total price does not include tax on Checkout Overview page
 
 Steps to reproduce:
