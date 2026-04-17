@@ -1,3 +1,4 @@
+Bug 2 — Cart reset
 Cart items are removed after clicking Back on the Checkout Overview page
 
 Steps to reproduce:
