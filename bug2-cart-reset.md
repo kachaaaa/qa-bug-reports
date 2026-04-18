@@ -2,6 +2,12 @@ Bug 2 — Cart reset
 
 Cart items are removed after clicking Back on the Checkout Overview page
 
+Environment:
+
+- Browser: Chrome
+- OS: macOS
+- Website: https://www.saucedemo.com/
+
 Steps to reproduce:
 	1.	Login as standard_user
 	2.	Add a product to the cart
