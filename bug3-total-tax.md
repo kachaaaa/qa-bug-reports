@@ -1,12 +1,12 @@
 Bug 3 — Total price
 
+Total price does not include tax on Checkout Overview page
+
 Environment:
 
 - Browser: Chrome
 - OS: macOS
 - Website: https://www.saucedemo.com/
-
-Total price does not include tax on Checkout Overview page
 
 Steps to reproduce:
 	1.	Login as standard_user
