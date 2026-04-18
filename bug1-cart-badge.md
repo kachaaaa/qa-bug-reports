@@ -2,6 +2,12 @@ Bug 1 - Cart Badge displays incorrect item count
 
 Cart badge displays incorrect item count after removing a product from cart
 
+Environment:
+
+- Browser: Chrome
+- OS: macOS
+- Website: https://www.saucedemo.com/
+
 Steps to reproduce:
 	1.	Login as standard_user
 	2.	Add 2 products to cart
