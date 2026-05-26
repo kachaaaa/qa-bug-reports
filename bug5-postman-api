@@ -1,0 +1,44 @@
+Summary : Error 401 Unauthorized when sending a public GET /users/{id} request after successful user registration
+
+Component : Users / Authentication
+
+Severity : High
+
+Priority : High
+
+Steps to Reproduce :
+
+1.Open Postman and send a POST request to create a user:
+https://api.practicesoftwaretesting.com/users/register
+Request body (JSON):
+{
+  "first_name": "Tony",
+  "last_name": "Stark",
+  "phone": "1234567890",
+  "dob": "1970-05-29",
+  "password": "TonyStark_M4_2026_!!#",
+  "email": "stark_iron_boss_2026@stark.com", 
+  "address": {
+    "street": "Malibu Point",
+    "house_number": "10800",
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "USA",
+    "postal_code": "90265"
+  }
+}
+2.Make sure that the response status is 201 Created and copy the generated user ID (01ksj2y5kc93dkeq7k8xserhzh)
+
+3.Create a new GET request to retrieve data by ID:
+https://api.practicesoftwaretesting.com/users/01ksj2y5kc93dkeq7k8xserhzh
+
+4.In the Authorization tab, select the No Auth value (the request is sent without a token)
+
+5.Click the Send button
+
+Actual Result : 
+The server returns the 401 Unauthorized status code. Access to data is blocked
+
+Expected Result : 
+
+The request is successful, and the server returns a 200 OK status code and JSON data for the user profile. The GET /users/{id} endpoint must be public, since the authorization token is not returned in the response body during registration (POST /users/register)
