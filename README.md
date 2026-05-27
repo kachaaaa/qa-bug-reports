@@ -1,67 +1,39 @@
-QA Bug Reports Portfolio
+QA Bug Reports Portfolio 
 
 About
+This repository contains comprehensive bug reports created during manual and API testing practice, formatted in a professional Jira-style layout. It demonstrates my ability to identify defects across both frontend (UI) and backend (API) layers.
 
-This repository contains bug reports created during manual testing practice using a Jira-style format.
+---
 
-Tested Application
+1. Web UI Testing (SauceDemo)
+* **Tested Application:** [SauceDemo](https://www.saucedemo.com/) (E-commerce web application)
+* **Skills Demonstrated:** Functional testing, UI/UX validation, Boundary Value Analysis, Equivalence Partitioning.
 
-* SauceDemo (test e-commerce web application)
+UI Bug Reports
+| ID | Title | Severity | Priority | Link |
+|:---|:---|:---:|:---:|:---:|
+| 1 | Cart badge displays incorrect item count | Medium | High | [View Report](./web-ui/bug-reports/BUG-001_cart_badge.md) |
+| 2 | Cart items are removed after navigating back from checkout | High | High | [View Report](./web-ui/bug-reports/BUG-002_cart_items_removal.md) |
+| 3 | Total price does not include tax | High | High | [View Report](./web-ui/bug-reports/BUG-003_tax_calculation.md) |
 
-Skills Demonstrated
+---
 
-* Bug reporting (Jira style)
-* Test case design thinking
-* Severity & Priority analysis
-* UI & Functional testing
+2. REST API Testing (Postman)
+* **Tested Application:** [Practice Software Testing](https://api.practicesoftwaretesting.com) (Toolshop API)
+* **Skills Demonstrated:** API testing, Response Status Code validation, Authentication flow analysis, Postman Collection management.
 
-Bug Reports
+API Bug Reports
+| ID | Title | Severity | Priority | Link |
+|:---|:---|:---:|:---:|:---:|
+| 1 | Error 401 Unauthorized when retrieving profile data without a token | High | High | [View Report](./postman-api/bug-reports/BUG-001_unauthorized_get_user.md) |
 
-ID
+---
 
-Title
-
-Severity
-
-Priority
-
-1
-
-Cart badge displays incorrect item count
-
-Medium
-
-High
-
-2
-
-Cart items are removed after navigating back from checkout
-
-High
-
-High
-
-3
-
-Total price does not include tax
-
-High
-
-High
-
-Structure
-
-Each bug report includes:
-
-* Steps to reproduce
-* Actual result
-* Expected result
-* Severity & Priority
-
- Notes
-
-These bug reports simulate real QA tasks and were created as part of my training.
-
-Goal
-
-To demonstrate practical QA skills for entry-level QA positions.
+## 📂 Project Structure
+```text
+├── web-ui/                # Web UI testing artifacts (SauceDemo)
+│   └── bug-reports/       # Markdown files with UI bug reports
+│
+└── postman-api/           # REST API testing artifacts (Postman)
+    ├── bug-reports/       # Markdown files with API bug reports
+    └── collections/       # Exported Postman collection JSON files
