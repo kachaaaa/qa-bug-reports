@@ -19,7 +19,7 @@ UI Bug Reports
 ---
 
 2. REST API Testing (Postman)
-* **Tested Application:** [Practice Software Testing](https://api.practicesoftwaretesting.com) (Toolshop API)
+* **Tested Application:** [Practice Software Testing](https://practicesoftwaretesting.com) (Toolshop API)
 * **Skills Demonstrated:** API testing, Response Status Code validation, Authentication flow analysis, Postman Collection management.
 
 API Bug Reports
