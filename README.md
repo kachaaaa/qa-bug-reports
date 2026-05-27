@@ -26,10 +26,10 @@ API Bug Reports
 | ID | Title | Severity | Priority | Link |
 |:---|:---|:---:|:---:|:---:|
 | 1 | Error 401 Unauthorized when retrieving profile data without a token | High | High | [View Report](./postman-api/bug-reports/BUG-001_unauthorized_get_user.md) |
-
+| 2 | Error 404 Resource not found when creating an order via POST /orders | Major | High | [View Report](./postman-api/bug-reports/BUG-002_orders_404_not_found.md) |
 ---
 
-## 📂 Project Structure
+Project Structure
 ```text
 ├── web-ui/                # Web UI testing artifacts (SauceDemo)
 │   └── bug-reports/       # Markdown files with UI bug reports
