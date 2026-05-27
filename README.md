@@ -13,7 +13,7 @@ UI Bug Reports
 | ID | Title | Severity | Priority | Link |
 |:---|:---|:---:|:---:|:---:|
 | 1 | Cart badge displays incorrect item count | Medium | High | [View Report](./web-ui/bug-reports/bug1-cart-badge.md) |
-| 2 | Cart items are removed after navigating back from checkout | High | High | [View Report](./web-ui/bug-reports/BUG-002_cart_items_removal.md) |
+| 2 | Cart items are removed after navigating back from checkout | High | High | [View Report](./web-ui/bug-reports/bug2-cart-items-removal.md) |
 | 3 | Total price does not include tax | High | High | [View Report](./web-ui/bug-reports/BUG-003_tax_calculation.md) |
 
 ---
