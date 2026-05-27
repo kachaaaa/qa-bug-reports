@@ -37,3 +37,6 @@ API Bug Reports
 └── postman-api/           # REST API testing artifacts (Postman)
     ├── bug-reports/       # Markdown files with API bug reports
     └── collections/       # Exported Postman collection JSON files
+
+Goal
+To demonstrate structural, high-quality test-design thinking and clear bug reporting skills required for entry-level QA engineer positions.
