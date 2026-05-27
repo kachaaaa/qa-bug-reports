@@ -3,7 +3,7 @@ BUG-001: Error 401 Unauthorized when retrieving new user data
 General Information
 * **Project:** Practice Software Testing API
 * **Component:** Users / Authentication
-* **Environment:** REST API / Postman v10+
+* **Environment:** REST API / Version 12.12.2
 * **Severity:** High 
 * **Priority:** High 
 
