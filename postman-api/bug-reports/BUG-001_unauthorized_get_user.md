@@ -47,3 +47,19 @@ Response body (JSON):
 
 Expected Result :
 The request is successful, and the server returns a 200 OK status code and JSON data for the created user's profile. The method should be accessible without authorization, as the security token is missing from the response during registration (POST /users/register)
+
+
+---
+
+## 🔄 Status Update: Not a Bug (As Designed)
+
+**Date of Update:** May 28, 2026
+**Status:** Closed / Rejected (Not a Bug)
+
+### Investigation Details:
+After additional end-to-end (E2E) testing and analyzing the web application's frontend network requests via DevTools, it was confirmed that the `GET /users/{id}` endpoint is private **by design**. 
+
+* **Reasoning:** The backend strictly protects user data. Anonymous (unauthorized) requests to view profiles are intentionally blocked with a `401 Unauthorized` status code. 
+* **Correct flow:** To access this endpoint successfully, a client must first authenticate via `POST /users/login`, obtain a Bearer token, and pass it in the Authorization header.
+
+*This report is kept in the repository for historical reference to prevent duplicate testing of this expected behavior.*
