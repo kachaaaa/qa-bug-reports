@@ -8,6 +8,7 @@ General Information
 * **Priority:** High 
 
 Description / Summary
+
 The backend returns a `401 Unauthorized` error when sending a public `GET /users/{id}` request immediately after a user has successfully registered, even though no authorization token is issued during the registration process
 
 Steps to Reproduce
