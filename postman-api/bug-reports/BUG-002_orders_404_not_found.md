@@ -8,6 +8,7 @@ General Information
 * **Priority:** High 
 
 Description / Summary
+
 The backend returns a `404 Resource not found` error when attempting to place an order (`POST /orders`) with a valid, filled cart using the admin Bearer token
 
 Preconditions
